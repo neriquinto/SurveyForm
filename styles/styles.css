@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    margin: 0;
+    color: white;
+    font-family: Verdana;
+    background-image: 
+        linear-gradient(rgba(60, 5, 99, 0.8), rgba(127, 22, 169, 0.8), rgba(254, 137, 156, 0.8)),
+        url(https://i.pinimg.com/originals/1e/6c/b2/1e6cb21c9ad8fd5d1b135662e34984b3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    
+}
+form {
+    color: white;
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 500px;
+    text-align: left;
+    padding: 30px;
+    background-color: rgb(75, 0, 130, 0.8);
+    border: 2px solid bisque;
+    border-radius: 10px;
+}
+input, select, textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.input-element {
+    display: flex;
+    flex-direction: column;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
